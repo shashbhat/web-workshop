@@ -1,0 +1,141 @@
+Git - system for tracking changes in computer system
+
+2005 linus torvalds
+distributed decentralized system
+many devs can work on a single project without having to be on the same network
+revert back at any time
+local and remote repos ex:github
+
+Basic Commands:
+	git init //Initialize git repo
+	
+	git add <file> //Add file to staging
+	
+	git status 	//Check status
+	
+	git commit 	//Commit changes in staging
+	ex: git commmit -m "init commit"
+
+	git push	//Push to remote repo
+	
+	git pull	//Pull changes from remote repo
+
+	git clone	//Copy remote repo
+
+Install git
+
+Check git --version
+
+(ctrl + scroll - zoom)
+
+
+git init
+git config --global user.name "Name"
+git config --global user.email "Email"
+
+git add .
+
+git status
+
+git commit -m "init"
+
+gitignore
+
+Github account
+New repo
+
+
+
+
+HTML - 
+
+Hypertext markup language
+skeleton of a webpage
+not a programming language
+consists of elements
+tells the browser how to display the content
+
+simple html document
+
+structure
+
+html versions - HTML5
+
+HTML can be written using any text editor
+
+The HTML document itself begins with <html> and ends with </html>
+The visible part of the HTML document is between <body> and </body>
+
+
+HTML headings are defined with the <h1> to <h6> tags
+
+P tags
+
+anchor tags- links- href - location that this link want to open
+
+<strong>
+
+
+form tag
+
+button
+
+html list
+ul - list-style-type
+ol - type
+
+
+CSS -
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+
+CSS is used to define styles for your web pages, including the design, layout and variations 
+in display for different devices and screen sizes.
+selectors:
+element
+class - .  So, all HTML elements with the same class attribute will get the same style.
+id - #
+* univeral
+
+css syntax
+
+3 ways - inline, internal and external
+
+background-color
+
+border
+margin The CSS margin properties are used to create space around elements, outside of any defined borders.
+padding The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+
+css text - text color, text align, text-transform
+
+css font - font-family: "Times New Roman", Times, serif;
+font-weight, font-size
+
+css units: absolute and relative
+1px = 1/96 inch
+it wont change according to the screen
+
+Relative length units specify a length relative to another length property
+
+em	Relative to the font-size of the element (2em means 2 times the size of the current font)	
+	
+rem	Relative to font-size of the root element	
+vw	Relative to 1% of the width of the viewport*	
+vh	Relative to 1% of the height of the viewport*	
+Viewport = the browser window size. If the viewport is 50cm wide, 1vw = 0.5cm.
+
+%	Relative to the parent element
+
+tables
+table tag, tr, th, td
+
+add border, table,th,,td{border:1px solid black;border-collapse:collapse}
+
+padding
+border-bottom
+tr:hover{bg:}
+th color
